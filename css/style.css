@@ -1,0 +1,57 @@
+:root {
+    --color-primary: #0086FF;
+    --color-primary-light: #B5DDFF;
+    --color-secondary: #9892EA;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0084FD;
+    padding: 1rem;
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    border: 1px dashed green;
+}
+.logo-container{
+    height: 30px;
+    width: auto;
+    background-color: rgb(119, 187, 187);
+}
+.menu-container{
+    height: 30px;
+    width: auto;
+    background-color: bisque;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row > * {
+    border: 1px dashed red;
+    flex-grow: 1;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 1rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+}
+
+.col-100{
+    flex-basis: 100%;
+}
+
+.card{
+    border-radius: 20px;
+    background-color: var(--color-primary);
+    min-height: 200px;
+}
+
