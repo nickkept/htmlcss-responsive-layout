@@ -2,7 +2,7 @@
     --color-primary: #0086FF;
     --color-primary-light: #B5DDFF;
     --color-secondary: #9892EA;
-    
+
 }
 * {
     margin: 0;
@@ -12,14 +12,36 @@
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: #0084FD;
+    background-color: var(--color-primary);
     padding: 1rem;
+}
+section{
+    padding: 3rem 0;
+}
+footer{
+    background-color: #333333;
 }
 .container{
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
     border: 1px dashed green;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.row-center{
+    justify-content: center;
+}
+.row > * {
+    border: 1px dashed red;
+    flex-grow: 1;
+    padding: 0.5rem;
+}
+.row-center > * {
+    flex-grow: 0;
 }
 .logo-container{
     height: 30px;
@@ -38,11 +60,7 @@ nav{
 .row > * {
     border: 1px dashed red;
     flex-grow: 1;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    padding-bottom: 1rem;
-    margin-left: -0.5rem;
-    margin-right: -0.5rem;
+    padding: 1rem;
 }
 
 .col-100{
@@ -51,7 +69,26 @@ nav{
 
 .card{
     border-radius: 20px;
-    background-color: var(--color-primary);
+    background-color: white;
     min-height: 200px;
+    width: auto;
 }
 
+.card-primary{
+    background-color: var(--color-primary-light);
+    color: var(--color-primary);
+}
+.card-secondary{
+    background-color: var(--color-secondary);
+    color: white;
+}
+.card-white-secondary{
+    background-color: white;
+    color: var(--color-secondary);
+}
+.white{
+    background-color: white;
+}
+.violet{
+    background-color: var(--color-secondary) ;
+}
