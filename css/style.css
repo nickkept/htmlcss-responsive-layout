@@ -23,6 +23,28 @@ section{
 footer{
     background-color: #333333;
 }
+h1{
+    font-size: 4rem;
+    padding: 1rem 0;
+    text-align: start;
+}
+h2{
+    font-size: 2rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+h3{
+    font-size: 1.5rem;
+    text-align: start;
+}
+p{
+    font-size: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    color: rgb(101, 98, 98);
+    text-align: center;
+}
+
 .container{
     width: 100%;
     margin: 0 auto;
@@ -80,6 +102,7 @@ footer{
 }
 .card-primary i{
     font-size: 5rem;
+    
 }
 .btn-container i{
     padding-right: 0.2rem;
@@ -88,8 +111,8 @@ button{
     border-radius: 20px;
     border: none;
 }
-button>i {
-    font-size: 1rem;
+.card-primary button>i {
+    font-size: 1.2rem;
 }
 .btn-white{
     padding: 0.5rem 0.8rem;
@@ -101,7 +124,17 @@ button>i {
     color: white;
     font-size: 1rem;
 }
-.
+.btn-circ{
+    border-radius: 100%;
+    background-color: var(--color-secondary);
+    aspect-ratio: 1 / 1;
+    padding: 1rem;
+}
+.btn-viol{
+    padding: 0.8rem 2.5rem;
+    color: white;
+    background-color: var(--color-secondary);
+}
 .burger{
     height: 30px;
     width: auto;
@@ -127,12 +160,12 @@ button>i {
 .card{
     border-radius: 20px;
     background-color: white;
-    
+    padding:2rem ;
     width: auto;
     text-align: center;
 }
 .card.card-primary{
-    padding:2rem ;
+    
 }
 .card-primary{
     background-color: var(--color-primary-light);
@@ -142,31 +175,92 @@ button>i {
     background-color: var(--color-secondary);
     color: white;
 }
+
+.card-secondary p{
+    color: white;
+}
 .card-white-secondary{
     background-color: white;
     color: var(--color-secondary);
 }
+.card-secondary-bl h2{
+    color: black ;
+}
+.card-start {
+    text-align: start;
+}
+.card-start p{
+    text-align: start;
+}
+
 .white{
     background-color: white;
+}
+.text-white{
+    color: white;
 }
 .violet{
     background-color: var(--color-secondary) ;
 }
 
-.card-primary h2{
-    font-size: 2rem;
-    padding: 1rem 0;
-}
-.card-primary p{
-    font-size: 1.2rem;
-    padding-top: 1rem;
-    padding-bottom: 2rem;
-    color: black;
-}
+
 #demo-img{
     display: block;
     width: 60%;
     margin: 0 auto;
     position: relative;
     bottom: -2rem;
+}
+.icon-primary{
+    
+    text-align: center;
+}
+#woman-top{
+    object-fit: cover;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+#man-bt{
+    object-fit: cover;
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: auto;
+}
+.card-secondary h2{
+    padding-top: 4rem;
+}
+.pd-top{
+    padding-top: 4rem;
+}
+.violet-text{
+    color: var(--color-secondary);
+}
+
+.test-img{
+    object-fit: cover;
+    display: block;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+}
+.test-img-2{
+    object-fit: cover;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 100%;
+    aspect-ratio: 1 / 1;
+}
+.quote{
+    position: relative;
+    left: 60%;
+    bottom: -4rem;
+    font-size: 5rem;
 }

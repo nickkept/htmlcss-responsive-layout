@@ -39,10 +39,18 @@
         display: none;
     }
     .card{
-        text-align: start;
+        text-align: center;
     }
-    
+    .card-secondary-circ{
+        display: flex;
+    }
+    .test-img{
+        position: relative;
+        left: -3rem;
+        top: 1.7rem;
+    }
 }
+
 /* Large resolution : lg  */
 @media screen and (min-width: 920px) {
     html{
@@ -87,14 +95,29 @@
         display: block;
     }
     .card{
-        text-align: start;
-        display: flex;
+        text-align: center;
     }
     #demo-img{
         display: block;
         width: 80%;
         margin: 0 auto;
         position: relative;
-        bottom: -6.5rem;
+        bottom: -6.6rem;
     }
-}
+    .card-primary{
+        display: flex;
+        text-align: start;
+    }
+    .pos-rel{
+        position: relative;
+        top: 7rem;
+    }
+    .card-secondary-circ{
+        display: flex;
+    }
+    .test-img{
+        position: relative;
+        left: -3rem;
+        top: 1.7rem;
+    }
+    
