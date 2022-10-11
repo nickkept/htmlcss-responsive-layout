@@ -88,5 +88,6 @@
     }
     .card{
         text-align: start;
+        display: flex;
     }
 }
