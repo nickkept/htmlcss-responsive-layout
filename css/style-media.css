@@ -90,4 +90,11 @@
         text-align: start;
         display: flex;
     }
+    #demo-img{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+        bottom: -6.5rem;
+    }
 }
