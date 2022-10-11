@@ -81,12 +81,15 @@ footer{
 .card-primary i{
     font-size: 5rem;
 }
-#btn-container i{
+.btn-container i{
     padding-right: 0.2rem;
 }
 button{
     border-radius: 20px;
     border: none;
+}
+button>i {
+    font-size: 1rem;
 }
 .btn-white{
     padding: 0.5rem 0.8rem;
