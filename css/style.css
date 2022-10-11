@@ -78,7 +78,12 @@ footer{
     text-decoration: none;
     color: white;
 }
-
+.card-primary i{
+    font-size: 5rem;
+}
+#btn-container i{
+    padding-right: 0.2rem;
+}
 button{
     border-radius: 20px;
     border: none;
