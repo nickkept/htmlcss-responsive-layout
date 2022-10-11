@@ -1,5 +1,9 @@
 /* Medium Resolution : md  */
 @media screen and (min-width: 768px) {
+    html{
+        font-size: 14px;
+    }
+    
     .container{
         max-width: 768px;
     }
@@ -31,10 +35,20 @@
     .col-md-3_4{
         flex-basis: calc(100% / 4 * 3);
     }
+    .menu-container{
+        display: none;
+    }
+    .card{
+        text-align: start;
+    }
     
 }
 /* Large resolution : lg  */
 @media screen and (min-width: 920px) {
+    html{
+        font-size: 16px;
+    }
+    
     .container{
         max-width: 920px;
     }
@@ -65,5 +79,14 @@
     
     .col-lg-3_4{
         flex-basis: calc(100% / 4 * 3);
+    }
+    .burger{
+        display: none;
+    }
+    .menu-container{
+        display: block;
+    }
+    .card{
+        text-align: start;
     }
 }
