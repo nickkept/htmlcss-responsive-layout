@@ -54,7 +54,14 @@ p{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 2rem;
+    height: 3rem;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 11;
+    background-color: var(--color-primary);
 }
 
 .row{
