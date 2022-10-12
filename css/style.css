@@ -49,7 +49,6 @@ p{
     width: 100%;
     margin: 0 auto;
     padding: 0 1rem;
-    border: 1px dashed green;
 }
 .nav-container{
     display: flex;
@@ -64,15 +63,25 @@ p{
 }
 .row-center{
     justify-content: center;
+
 }
 
 .row > * {
-    border: 1px dashed red;
     flex-grow: 1;
     padding: 0.5rem;
 }
 .row-center > * {
     flex-grow: 0;
+}
+.row-center p{
+    color: white;
+}
+.row-center h1{
+    text-align: center;
+    color: rgb(248, 204, 29);
+}
+.row-center h2{
+    color: white;
 }
 .logo-container{
     
@@ -117,6 +126,15 @@ button{
 .btn-white{
     padding: 0.5rem 0.8rem;
     background-color: white;
+}
+.btn-big{
+    border-radius: 40px;
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    color: var(--color-secondary);
+}
+.last-btn{
+    text-align: center;
 }
 .btn-blue{
     padding: 0.5rem 2.5rem;
